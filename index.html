@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="author" content="INFX1606 Student">
+        <meta name="description" content="Assignment #5">
+
+        <title>Assignment #5</title>
+
+ 		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+ 		
+    </head>
+    <body>
+
+		<div id="page">
+		
+			<div id="page-inner">
+
+				<div id="head">
+		
+					<h1>Assignment #5</h1>
+				
+				</div>
+
+				<div id="nav">
+
+					<ul>
+						<li><a href="#task1">Task 1</a></li>
+						<li><a href="#task2">Task 2</a></li>
+						<li><a href="#task3">Task 3</a></li>
+						<li><a href="#task4">Task 4</a></li>
+						<li><a href="#task5">Task 5</a></li>												
+					</ul>
+
+				</div>
+
+
+				<div id="content">
+				
+					<p>Add any necessary HTML/CSS, and write the JavaScript required, to make the tasks work as stated. Do not fundamentally alter the layout of the page. These are all straight-forward exercises, intended to build up towards using JavaScript &amp; events in more practical situations.
+					<p>You may find documentation, such as the <a href="https://developer.mozilla.org/en-US/docs/Web/Reference/Events">Mozilla Developer Network - Event Reference List</a>, useful.
+				
+					<div id="task1" class="task">
+						<h2>Task 1</h2>
+						
+						<p>Change the background color, of the div that contains this task, to the color in each box when the box is hovered over.</p>
+						<p>When the mouse stops hovering over the box, change the background color back to white.</p>
+						
+						<div id="t1_color_one" class="t1_colors" style="background:	goldenrod;"></div>
+						<div id="t1_color_two" class="t1_colors" style="background: lightgreen;"></div>
+						<div id="t1_color_three" class="t1_colors" style="background: palevioletred;"></div>
+					</div>
+
+					<div id="task2" class="task">
+						<h2>Task 2</h2>
+
+						<!-- image courtesy Google Chrome -->		
+						<img src="media/chrome.png" alt="Chrome Browser" id="chrome_browser">
+
+						<ol>
+							<li>First click: Move the Chrome icon to the top, right corner of the page.</li>
+							<li>Second click: Move the Chrome icon back to it's original spot.</li>
+							<li>Further clicks: Continue the cycle.</li>
+						</ol>
+						<input type="button" value="Move" id="task2control">		
+
+					</div>
+
+					<div id="task3" class="task">
+						<h2>Task 3</h2>
+
+						<!-- image courtesy wikipedia: http://en.wikipedia.org/wiki/File:TARDIS2.jpg -->
+						<img src="media/tardis.jpg" alt="The Tardis" id="tardis">
+
+						<p>Make the Tardis transparent to degree of the specified percentage.</p>
+						<select name="task3control" id="task3control">
+							<option>Select One</option>
+							<option>0%</option>
+							<option>10%</option>
+							<option>20%</option>	
+							<option>30%</option>
+							<option>40%</option>
+							<option>50%</option>
+							<option>60%</option>
+							<option>70%</option>
+							<option>80%</option>
+							<option>90%</option>							
+							<option>100%</option>
+						</select>    				
+						
+	
+					</div>
+
+					<div id="task4" class="task">
+						<h2>Task 4</h2>
+						<p>Take whatever is typed into the textfield and print it out into the webpage. The output must update immediately following every character entry.</p>
+						<p>When focus is taken away from the text field, clear the output and the text field.</p>
+						<input type="text" name="task4control" id="task4control">
+						<p id = "output"></p>
+				
+				
+					</div>
+
+					<div id="task5" class="task">
+						<h2>Task 5</h2>
+						<p>On page load, print out the current hour, minute, and second.<br>
+						If the second is evenly divisible by 5, also print "Break time!".</p>
+						<p id = "time"></p>
+					</div>
+					
+					
+					
+					
+				</div>
+
+	
+ 			</div>
+ 
+		</div> 
+
+ 		<script type="text/javascript" src="js/scripts.js"></script>
+
+    </body>
+</html>
